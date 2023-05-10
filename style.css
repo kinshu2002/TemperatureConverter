@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Mulish", sans-serif;
+}
+
+body {
+    width: 100vm;
+    height: 100vm;
+    background-color: turquoise;
+    background-image: url("1.jpg");
+    display: grid;
+    place-items: center;
+}
+
+form {
+    background-color: peru;
+    padding: 80px;
+    color: blue;
+    height: 80;
+    width: 50%;
+    border-radius: 80px;
+    margin: 100px auto;
+    text-align: center;
+}
+
+#tempcalc label {
+    font-size: 30px;
+    color: blueviolet;
+}
+
+#temp {
+    border: none;
+    font-style: initial;
+    padding: 10px;
+    height: 40px;
+    width: 100px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+#temp_diff {
+    height: 40px;
+    color: blue;
+    border: none;
+    margin-top: 20px;
+    font-size: 15px;
+    vertical-align: top;
+}
+
+[type="submit"] {
+
+    height: 35px;
+    margin: 20px;
+    width: 100px;
+    font-size: 15px;
+    border: none;
+    border-radius: 80px;
+    background-color: rgb(54, 63, 63);
+    color: white;
+}
+
+#resultContainer {
+    font-size: 35px;
+    color: red;
+}
